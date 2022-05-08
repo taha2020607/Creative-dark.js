@@ -1,0 +1,103 @@
+body {
+  font-family: 'Lobster', cursive;
+  color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #12a5df;
+}
+
+header {
+  border-radius: 0 0 15px 15px;
+  overflow: hidden;
+  background-image: url(../images/back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
+
+header .text {
+  text-align: center;
+  font-weight: 900;
+  color: #12a5df;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(0, -40%);
+          transform: translate(0, -40%);
+}
+
+header .text h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+header .text p {
+  margin: 0;
+  font-size: 40px;
+  position: relative;
+  top: -29px;
+}
+
+.mode-2 #pills-javascript-tab {
+  padding: 0;
+}
+
+.mode {
+  /* optionally override badge styling */
+}
+
+.mode .nav-pills .nav-link {
+  border-radius: 15px;
+  font-size: 28px;
+  color: #12a5df;
+}
+
+.mode .nav-pills .nav-link.active, .mode .nav-pills .nav-link .nav-pills .show > .nav-link {
+  background-color: #12a5df;
+  clear: both;
+  color: white;
+}
+
+.mode .hljs {
+  width: 100%;
+  height: 45vh;
+}
+
+.mode .code-badge {
+  background: #555 !important;
+  padding: 8px !important;
+}
+
+.mode .code-badge-copy-icon {
+  font-size: 1.3em !important;
+}
+
+.mode .tab-pane {
+  border-radius: 15px;
+}
+
+.mode .runCode {
+  width: 100%;
+  border-radius: 15px;
+  height: 45vh;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.mode .runCode iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=style.css.map */
